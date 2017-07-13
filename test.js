@@ -329,6 +329,11 @@ test('width accepts shortcut prop', t => {
   t.deepEqual(a, {width: '50%'})
 })
 
+test('alignSelf returns string values', t => {
+  const a = alignSelf({alignSelf: 'center'})
+  t.deepEqual(a, {alignSelf: 'center'})
+})
+
 test('fontSize returns scale values', t => {
   const a = fontSize({fontSize: 0})
   const b = fontSize({fontSize: 1})

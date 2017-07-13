@@ -1,4 +1,4 @@
 const { is } = require('./util')
 
-module.exports = props => is(props.alignSelf) ? { 'align-self': props.alignSelf } : null
+module.exports = props => is(props.alignSelf) ? { alignSelf: props.alignSelf } : null
 

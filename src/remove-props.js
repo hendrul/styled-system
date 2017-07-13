@@ -1,5 +1,5 @@
 
-const REG = /^([mpfw][trblxy]?|width|fontSize|color|bg)$/
+const REG = /^([mpfw][trblxy]?|width|alignSelf|fontSize|color|bg)$/
 
 module.exports = props => {
   const next = {}
